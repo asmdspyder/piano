@@ -5,64 +5,68 @@
 
     setTimeout(function(){
       var audio=new Audio("a6.ogg");
-      audio.play();},100);
+      audio.play();},80);
     anime("a");
   });
 
   document.querySelectorAll(".keys")[1].addEventListener("click",function (){
-     var audio=new Audio("b6.ogg");
-    audio.play();
+    setTimeout(function(){
+      var audio=new Audio("b6.ogg");
+      audio.play();},80);
     anime("s");
   });
 
   document.querySelectorAll(".keys")[2].addEventListener("click",function (){
-     var audio=new Audio("c6.ogg");
-    audio.play();
+    setTimeout(function(){
+      var audio=new Audio("c6.ogg");
+      audio.play();},80);
     anime("d");
 
   });
 
   document.querySelectorAll(".keys")[3].addEventListener("click",function (){
-  var audio=new Audio("d6.ogg");
-    audio.play();
+    setTimeout(function(){
+      var audio=new Audio("d6.ogg");
+      audio.play();},80);
     anime("f");
   });
 
   document.querySelectorAll(".keys")[4].addEventListener("click",function (){
-  var audio=new Audio("e6.ogg");
-    audio.play();
+    setTimeout(function(){
+      var audio=new Audio("e6.ogg");
+      audio.play();},80);
     anime("g");
   });
 
   document.querySelectorAll(".keys")[5].addEventListener("click",function (){
-  var audio=new Audio("f6.ogg");
-    audio.play();
+    setTimeout(function(){
+      var audio=new Audio("f6.ogg");
+      audio.play();},80);
     anime("h");
   });
 
   document.querySelectorAll(".keys")[6].addEventListener("click",function (){
-  var audio=new Audio("g6.ogg");
-    audio.play();
+    setTimeout(function(){
+      var audio=new Audio("g6.ogg");
+      audio.play();},80);
     anime("j");
   });
 
   document.querySelectorAll(".keys")[7].addEventListener("click",function (){
-  var audio=new Audio("a7.ogg");
-    audio.play();
+    setTimeout(function(){
+      var audio=new Audio("a7.ogg");
+      audio.play();},80);
     anime("k");
   });
 
   document.querySelectorAll(".keys")[8].addEventListener("click",function (){
-  var audio=new Audio("b7.ogg");
-    audio.play();
+    setTimeout(function(){
+      var audio=new Audio("b7.ogg");
+      audio.play();},80);
     anime("l");
   });
 
-  document.querySelectorAll(".keys")[9].addEventListener("click",function (){
-  var audio=new Audio("c7.ogg");
-    audio.play();
-    anime(";");
-  });
+
 
 document.addEventListener("keypress",function (event){
   switch (event.key){
@@ -108,11 +112,6 @@ document.addEventListener("keypress",function (event){
 
 case "l":
 var audio=new Audio("b7.ogg");
-audio.play();
-break;
-
-case ";":
-var audio=new Audio("c7.ogg");
 audio.play();
 break;
 }
