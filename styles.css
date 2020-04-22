@@ -1,0 +1,35 @@
+body{
+  background-color: black;
+
+}
+
+h1{
+  color:white;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size:90px;
+
+}
+
+.btn{
+  height:400px;
+  width:80px;
+}
+
+.piano{
+  text-align: center;
+}
+
+@media (max-width:927px) {
+
+  .ah2{
+    background-color: black;
+  }
+
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
