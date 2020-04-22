@@ -2,8 +2,10 @@
 
 
   document.querySelectorAll(".keys")[0].addEventListener("click",function (){
-     var audio=new Audio("a6.ogg");
-    audio.play();
+
+    setTimeout(function(){
+      var audio=new Audio("a6.ogg");
+      audio.play();},100);
     anime("a");
   });
 
